@@ -28,3 +28,5 @@ SPI (expansion)
 I2C (expansion)
 
 Further product and Wiki information maybe found on our website https://ditronix.net 
+
+Tags: BME280, ESP-12S, ESP8266, GB3FW, GB3JT, Home, Home Automation, Humidity, IoT, Light, Pressure, Remote Monitoring, SDK, STEM, Temperature, ThingSpeak, Weather Station, Weather System
