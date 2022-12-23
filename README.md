@@ -1,4 +1,4 @@
-**CWX (Compact IoT Weather Station) SDK** 
+**CWX (Compact IoT Weather Station)** 
 
 ------------
 
