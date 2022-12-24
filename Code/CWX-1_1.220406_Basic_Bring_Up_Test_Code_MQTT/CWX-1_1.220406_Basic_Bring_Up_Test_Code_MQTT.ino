@@ -1,15 +1,21 @@
 /*
   Dave Williams, DitroniX 2019-2022 (ditronix.net)
-  CWX 12S Compact Weather Station ESP12S SDK
-  PCA v2204-106 - CWX-1_1.220406_Basic_Bring_Up_Test_Code_MQTT Firmware 1.220406 - 6th April 2022
+  CWX 12S Compact Weather Station ESP8266 SDK
+  Features include ESP8266, CR123A, BME280, SFH2440 Light Sensor, UART Flashing Compatible
+  
+  PCA 1.2204-106 - CWX-1_1.220406_Basic_Bring_Up_Test_Code_MQTT Firmware 1.220406 - 6th April 2022
   
   CWX-1 Compact Weather Station - MQTT Basic Test Code for Domoticz - No Sleep Version - subscribe("domoticz/in")
   
   The purpose of this test code is to cycle through the various main functions of the board as part of bring up testing.
  
-  This test code is OPEN SOURCE and although is is not intended for real world use, it may be freely used, or modified as needed.
+  This test code is OPEN SOURCE and formatted for easier viewing.  Although is is not intended for real world use, it may be freely used, or modified as needed.
+  It is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+
+  Further information, details and examples can be found on our website wiki pages ditronix.net/wiki and github.com/DitroniX
 */
 
+// Libraries
 #include "Arduino.h"
 #include <ESP8266WiFi.h>
 #include <PubSubClient.h>   // Search PubSubClient in Library (http://pubsubclient.knolleary.net/)
