@@ -7,8 +7,8 @@ Features include ESP8266, CR123A, BME280, SFH2440 Light Sensor, D1 Flashing Comp
 1.2209-104	Beta Release
 1.2204-105	Production Release
 1.2204-106	Production Release (Updated OLED Header)
-2.2211-201	Beta Release
-2.2212-202 	Production Release (Added LDO, External DC Input Option)
+2.2211-201	Beta Release (Added USB UART, LDO3V, Battery Voltage Monitor, User Pads)
+2.2212-202 	Production Release (Updated LDO, External DC Input Option)
 
 
 
@@ -23,4 +23,4 @@ WIKI https://ditronix.net/wiki/
 GitHub https://github.com/DitroniX
 Shop https://ditronix.net/shop/
 
-Dave Williams | G8PUO | DitroniX 1981-2022 | ditronix.net
+Dave Williams | G8PUO | DitroniX 1981-2022 | ditronix.net, 
