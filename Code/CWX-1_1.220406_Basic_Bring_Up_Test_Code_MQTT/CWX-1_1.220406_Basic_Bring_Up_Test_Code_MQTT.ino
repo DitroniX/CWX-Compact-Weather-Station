@@ -1,7 +1,7 @@
 /*
   Dave Williams, DitroniX 2019-2022 (ditronix.net)
   CWX 12S Compact Weather Station ESP8266 SDK
-  Features include ESP8266, CR123A, BME280, SFH2440 Light Sensor, UART Flashing Compatible
+  Features include ESP8266, CR123A, BME280, BMP180, SFH2440 Light Sensor, UART Flashing Compatible
   
   PCA 1.2204-106 - CWX-1_1.220406_Basic_Bring_Up_Test_Code_MQTT Firmware 1.220406 - 6th April 2022
   
