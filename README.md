@@ -50,4 +50,4 @@ Further information can be found:
 - **GitHub**  https://github.com/DitroniX/
 - **Shop**  https://ditronix.net/shop/
 
-Dave Williams | G8PUO | DitroniX 1981-2022 | ditronix.net
+Dave Williams | G8PUO | DitroniX 1981-2023 | ditronix.net
