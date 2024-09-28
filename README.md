@@ -52,6 +52,7 @@ Opensource AQIX Firmware is provided on our GitHub, using the standard PlatformI
     -   **Espressif ESP32-C3 Mini**  - 2.4GHz Wi-Fi (802.11b/g/n) and Bluetooth 5
         -   ESP32-C3-MINI-1-N4  _(PCB Antenna)_
         -   ESP32-C3-MINI-1U-N4  _(External Antenna via U. FL cable)_
+        -   On-Board 32.768 kHz XTAL for Real Time Clock
 -   **Type C Programming / Debug**
     -   Type C USB Connector
     -   CH340K USB UART 2Mbps Transceiver
