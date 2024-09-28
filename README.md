@@ -13,7 +13,7 @@ Powered by a single CR123 Lithium battery, this NEW CWX-3-BME280 Board is a Comp
 
 **The New CWX V3 features the following Top Level Improvements:**
 
- - New ESP32-C1 MCU (replacing the ESP8266/ESP12S) 
+ - New ESP32-C3 MCU (replacing the ESP8266/ESP12S) 
  - Type C USB Interface
  - Improved LDO Current assisting any External Devices On-Board
  - ESP32-C3 D1 UART Interface On-Board 
