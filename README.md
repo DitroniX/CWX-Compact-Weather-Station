@@ -1,45 +1,98 @@
-## CWX Compact IoT Weather Station
+## CWX Compact IoT Weather Station (NEW for October 2024)
 
-Powered by a single CR123 Lithium battery, this latest CWX-2-BME280 Board is a Compact Weather Station for IoT Home Automation, providing:
+**IN PRODUCTION October 2024**
 
-Barometric Pressure
-Temperature
-Humidity
-Light Level
+Powered by a single CR123 Lithium battery, this NEW CWX-3-BME280 Board is a Compact Weather Station for IoT Home Automation, providing:
 
-![Display-Type-B](https://ditronix.net/wp-content/uploads/2022/12/CWX-2-ESP8266-BME280-Board-2212-202-Battery-USB.jpg?raw=true)
+ - Barometric Pressure
+ - Ambient Temperature
+ - Humidity
+ - Ambient Light Level
 
-Based on the industry standard ESP8266 (ESP-12S Series), the SDK includes:
+![New CWX 3 - Compact Weather Station](https://github.com/DitroniX/CWX-Compact-Weather-Station/blob/main/Datasheets%20and%20Information/CWX3%20ESP32C3%20SDK%20v1.2409.101%203D%20PCA.png)
 
-BME-280, to provide a low power
-Barometric Pressure, 300-1100 hPa
-Temperature, -40 to +85°C
-Humidity, 0-100% Relative (± 3%)
-SFH2440, to provide a high linearity Ambient Light Sensor.
-Spectral range of 400 to 690 nm
-Connections
+**The New CWX V3 features the following Top Level Improvements:**
 
-The CWX has four headers.
+ - New ESP32-C1 MCU (replacing the ESP8266/ESP12S) 
+ - Type C USB Interface
+ - Improved LDO Current assisting any External Devices On-Board
+ - ESP32-C3 D1 UART Interface On-Board 
+ - EEPROM for Data Logging and Configuration
+ - User Button
+ - RGB LED
+ - Dallas OneWire Interface (for external temperature sensors and probes)
+ - I2C External Interface Improved
+ - Ambient Light Sensor
 
-BMx Sensor header
-Micro USB (Flashing and Debug)
-I2C (expansion and OLED)
-DC In
+**CWX3 Features**
 
----
+Based on the new Espressif ESP32C3 Mini, which has both Wi-Fi and BT, the CWX3 SDK board is provided with onboard Battery Holder or External DC Input.
 
-Updates to the popular original CWX-1 are:
+Interface for programming, and development, is thought a standard Type C USB, into the onboard UART and ESP32C3, so making development and use, completely self-contained.
 
-USB Programming Interface (MicroUSB)
-CH340 UART
-On-board 3.3V LDO regulator (Allows USB 5V operation)
-User Links
-Deep Sleep Link
-Link to Enable/Disable the Status LED
-Connections for external DC Input
+Using the provided I2C interface, an OLED display can be plugged directly into the board, if required, for local monitoring and status information.
+
+Opensource AQIX Firmware is provided on our GitHub, using the standard PlatformIO platform. This monitors Barometric Pressure, Temperature, Humidity, Light Level and CO2 Air Quality information, which can then be sent to your Home Automation, or cloud service, via provided MQTT or Domoticz etc., as standard.
+
+**CWX Specification and Features**
+
+-   **Sensors Included**
+    -   **High Accuracy Barometric Sensor**  - Bosch BME 280 Module, providing: -  
+	    - **Barometric Pressure**  300...1100 hPa (millibar) - Accuracy ±0.25% - which is equivalent to 1m at 400m height change - RMS Noise 0.2 Pa - which is equivalent to 1.7 cm -  
+	    - **Temperature**  -40 to 85°C - Temperature coefficient offset ±1.5Pa/K. - which is equivalent to ±12.6cm at 1 °C temperature change -  
+	    - **Humidity**  - 0 to 100 % - Accuracy tolerance ±3% relative humidity - Hysteresis ≤2% relative humidity
+    
+    -   **Ambient Light Sensor**
+        -   SFH2440, providing spectral sensitivity adapted to human eye sensitivity
+        -   Std. Light A; T = 2856 K Minimum 7 nA/lx
+        -   Spectral range of sensitivity λ10% typically 400 to 690 nm
+        -   Wavelength of max sensitivity λS max typically 620 nm
+-   **MCU**
+    -   **Espressif ESP32-C3 Mini**  - 2.4GHz Wi-Fi (802.11b/g/n) and Bluetooth 5
+        -   ESP32-C3-MINI-1-N4  _(PCB Antenna)_
+        -   ESP32-C3-MINI-1U-N4  _(External Antenna via U. FL cable)_
+-   **Type C Programming / Debug**
+    -   Type C USB Connector
+    -   CH340K USB UART 2Mbps Transceiver
+    -   Easy programming. Select ‘ESP32C3 Dev Module’
+    -   BAUD rate up to 921600 to speed up Flashing
+    -   Serial Monitoring Debug and Remote Logging
+    -   Power Can Be Taken from USB 5V (when Flashing).
+-   **EEPROM (I2C)**
+    -   AT24C64 64Kbit
+    -   On-board Data Logging
+    -   On-board Parameters
+    -   Firmware setup user parameters and configuration
+-   **Battery or External DC Operation**
+    -   Powered by:
+        -   1 x  **CR123**  Lithium battery
+        -   External DC such as USB 5V or 4.5 to 15V DC
+-   **Battery Voltage Monitor**
+    -   ADC provides battery voltage reading
+-   **External DC Input**
+    -   AMS1117 LDO allowing use of external DC input 4.5V to 15V
+-   **External Temperature**
+    -   Dallas OneWire Interface for External Temperatures
+        -   Example Probe Sensor for Greenhouse
+-   **RGB LED - Status**
+    -   Configured to three GPIO’s for easy Firmware control
+-   **I2C OLED Connector**
+    -   Configurable 3V3 Pin 1 and 2 polarities
+    -   PCB 4 Pin Header Connector
+-   **Buttons**
+    -   Reset
+    -   User (Program or GP9 Detect)
+-   **Enclosure**
+    -   Designed to fit into a Waterproof Clear Cover Enclosure
+-   **Compact Design and Easy to Use**
+    -   Compact PCB 63mm x 51mm
+    -   4 x M3 mounting holes
+    -   Operating Ambient Temperature -10 to +60 °C
+    -   Optional Conformal Coating – on request.
 
 
-Tags: BME280, ESP-12S, ESP8266, GB3FW, GB3JT, Home, Home Automation, Humidity, IoT, Light, Pressure, Remote Monitoring, SDK, STEM, Temperature, Domoticz, ThingSpeak, Weather Station, Weather System
+Tags: BME280, ESP32C3, SFH2440, Home Automation, Humidity, IoT, Light, Pressure, Remote Monitoring, SDK, STEM, Temperature, Domoticz, Home Assistant, ThingSpeak, Weather Station, Weather System
+
 
 
 ## **Further Information**
@@ -69,7 +122,7 @@ We value our Customers, Users of our designs and STEM Communities, all over the 
 * [Supporting the STEM Projects - BuyMeACoffee](https://www.buymeacoffee.com/DitroniX)
 *  **LinkedIN**: [https://www.linkedin.com/in/g8puo/](https://www.linkedin.com/in/g8puo/)
 
-***Dave Williams, Eastbourne, UK.***
+***Dave Williams, Maidstone, UK.***
 
 Electronics Engineer | Software Developer | R&D Support | RF Engineering | Product Certification and Testing | STEM Ambassador
 
