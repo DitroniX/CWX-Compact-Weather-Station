@@ -33,7 +33,7 @@ Interface for programming, and development, is thought a standard Type C USB, in
 
 Using the provided I2C interface, an OLED display can be plugged directly into the board, if required, for local monitoring and status information.
 
-Opensource AQIX Firmware is provided on our GitHub, using the standard PlatformIO platform. This monitors Barometric Pressure, Temperature, Humidity, Light Level and CO2 Air Quality information, which can then be sent to your Home Automation, or cloud service, via provided MQTT or Domoticz etc., as standard.
+Opensource CWX Firmware is provided on our GitHub, using the standard PlatformIO platform. This monitors Barometric Pressure, Temperature, Humidity, Light Level and CO2 Air Quality information, which can then be sent to your Home Automation, or cloud service, via provided MQTT or Domoticz etc., as standard.
 
 **CWX Specification and Features**
 
