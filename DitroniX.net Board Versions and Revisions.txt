@@ -7,6 +7,8 @@ Board: CWX (Compact Weather Station)
 
 ESP32-C3, CR123A, BME280, SFH2440 Light Sensor, D1 Flashing Compatible, LDO
 
+3.2409.101	Production Release (Updated New CWX3 Board)
+
 
 **CWX1 and CWX2 Features**
 
