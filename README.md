@@ -23,6 +23,7 @@ Powered by a single CR123 Lithium battery, this NEW CWX-3-BME280 Board is a Comp
  - Dallas OneWire Interface (for external temperature sensors and probes)
  - I2C External Interface Improved
  - Ambient Light Sensor
+ - On-Board 32.768 kHz XTAL for Real Time Clock
 
 **CWX3 Features**
 
