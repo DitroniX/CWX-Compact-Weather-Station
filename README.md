@@ -11,6 +11,9 @@ Powered by a single CR123 Lithium battery, this NEW CWX-3-BME280 Board is a Comp
 
 ![New CWX 3 - Compact Weather Station](https://github.com/DitroniX/CWX-Compact-Weather-Station/blob/main/Datasheets%20and%20Information/CWX3%20ESP32C3%20SDK%20v1.2409.101%203D%20PCA.png)
 
+Compare the New CO2 Air Quality and Compact Weather Monitor SDK
+![Display-Type-B](https://github.com/DitroniX/DitroniX/blob/main/Files/DitroniX.net%20AQIX%20Air%20Quality%20CO2%20%20and%20CWX%20Weather%20Monitors%20Overview.png?raw=true)
+
 **The New CWX V3 features the following Top Level Improvements:**
 
  - New ESP32-C3 MCU (replacing the ESP8266/ESP12S) 
