@@ -11,6 +11,9 @@ Powered by a single CR123 Lithium battery, this NEW CWX-3-BME280 Board is a Comp
 
 ![New CWX 3 - Compact Weather Station](https://github.com/DitroniX/CWX-Compact-Weather-Station/blob/main/Datasheets%20and%20Information/CWX3%20ESP32C3%20SDK%20v1.2409.101%203D%20PCA.png)
 
+Compare the New CO2 Air Quality and Compact Weather Monitor SDK
+![Display-Type-B](https://github.com/DitroniX/DitroniX/blob/main/Files/DitroniX.net%20AQIX%20Air%20Quality%20CO2%20%20and%20CWX%20Weather%20Monitors%20Overview.png?raw=true)
+
 **The New CWX V3 features the following Top Level Improvements:**
 
  - New ESP32-C3 MCU (replacing the ESP8266/ESP12S) 
@@ -23,6 +26,7 @@ Powered by a single CR123 Lithium battery, this NEW CWX-3-BME280 Board is a Comp
  - Dallas OneWire Interface (for external temperature sensors and probes)
  - I2C External Interface Improved
  - Ambient Light Sensor
+ - On-Board 32.768 kHz XTAL for Real Time Clock
 
 **CWX3 Features**
 
@@ -32,7 +36,7 @@ Interface for programming, and development, is thought a standard Type C USB, in
 
 Using the provided I2C interface, an OLED display can be plugged directly into the board, if required, for local monitoring and status information.
 
-Opensource AQIX Firmware is provided on our GitHub, using the standard PlatformIO platform. This monitors Barometric Pressure, Temperature, Humidity, Light Level and CO2 Air Quality information, which can then be sent to your Home Automation, or cloud service, via provided MQTT or Domoticz etc., as standard.
+Opensource CWX Firmware is provided on our GitHub, using the standard PlatformIO platform. This monitors Barometric Pressure, Temperature, Humidity, Light Level and CO2 Air Quality information, which can then be sent to your Home Automation, or cloud service, via provided MQTT or Domoticz etc., as standard.
 
 **CWX Specification and Features**
 
@@ -51,6 +55,7 @@ Opensource AQIX Firmware is provided on our GitHub, using the standard PlatformI
     -   **Espressif ESP32-C3 Mini**  - 2.4GHz Wi-Fi (802.11b/g/n) and Bluetooth 5
         -   ESP32-C3-MINI-1-N4  _(PCB Antenna)_
         -   ESP32-C3-MINI-1U-N4  _(External Antenna via U. FL cable)_
+        -   On-Board 32.768 kHz XTAL for Real Time Clock
 -   **Type C Programming / Debug**
     -   Type C USB Connector
     -   CH340K USB UART 2Mbps Transceiver
