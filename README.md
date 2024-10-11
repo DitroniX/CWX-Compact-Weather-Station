@@ -1,4 +1,4 @@
-## CWX Compact IoT Weather Station (NEW for October 2024)
+## CWX v3 Compact IoT Weather Station (NEW for October 2024)
 
 **IN PRODUCTION October 2024**
 
