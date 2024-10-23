@@ -9,7 +9,9 @@ Powered by a single CR123 Lithium battery, this NEW CWX-3-BME280 Board is a Comp
  - Humidity
  - Ambient Light Level
 
-![New CWX 3 - Compact Weather Station](https://github.com/DitroniX/CWX-Compact-Weather-Station/blob/main/Datasheets%20and%20Information/CWX3%20ESP32C3%20SDK%20v1.2409.101%203D%20PCA.png)
+![New CWX 3 - Compact Weather Station](https://github.com/DitroniX/CWX-Compact-Weather-Station/blob/main/Datasheets%20and%20Information/CWX3%20ESP32C3-1%20SDK%20Board.jpg)
+
+![CWX 3 - Compact Weather Station Kit](https://github.com/DitroniX/CWX-Compact-Weather-Station/blob/main/Datasheets%20and%20Information/CWX3%20ESP32C3-1%20SDK%20Kit.jpg)
 
 Compare the New CO2 Air Quality and Compact Weather Monitor SDK
 ![Display-Type-B](https://github.com/DitroniX/DitroniX/blob/main/Files/DitroniX.net%20AQIX%20Air%20Quality%20CO2%20%20and%20CWX%20Weather%20Monitors%20Overview.png?raw=true)
