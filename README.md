@@ -1,8 +1,6 @@
 ## CWX v3 Compact IoT Weather Station (NEW for October 2024)
 
-**IN PRODUCTION October 2024**
-
-Powered by a single CR123 Lithium battery, this NEW CWX-3-BME280 Board is a Compact Weather Station for IoT Home Automation, providing:
+Powered by a single CR123 Lithium battery, or external DC power, this NEW CWX-3-BME280 Board is a Compact Weather Station for IoT Home Automation, providing:
 
  - Barometric Pressure
  - Ambient Temperature
@@ -29,6 +27,13 @@ Compare the New CO2 Air Quality and Compact Weather Monitor SDK
  - I2C External Interface Improved
  - Ambient Light Sensor
  - On-Board 32.768 kHz XTAL for Real Time Clock
+
+**Purchase**
+
+![Display-Type-B](https://raw.githubusercontent.com/DitroniX/DitroniX/main/Files/DitroniX.net%20STEM%20IoT%20eBay.jpg?raw=true)
+
+Our SDK boards and accessories are available from our online shops on [eBay](https://www.ebay.co.uk/sch/i.html?LH_TitleDesc=1&LH_BIN=1&LH_ItemCondition=1000&_fss=1&_saslop=1&_sasl=ditronixuk&LH_SpecificSeller=1&_dmd=2&_ipg=240) and [Amazon](https://www.amazon.co.uk/s?k=ditronix)
+
 
 **CWX3 Features**
 
