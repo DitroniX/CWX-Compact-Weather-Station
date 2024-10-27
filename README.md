@@ -105,8 +105,10 @@ Opensource CWX Firmware is provided on our GitHub, using the standard PlatformIO
 
 Tags: BME280, ESP32C3, SFH2440, Home Automation, Humidity, IoT, Light, Pressure, Remote Monitoring, SDK, STEM, Temperature, Domoticz, Home Assistant, ThingSpeak, Weather Station, Weather System
 
+## **Purchase**
+[![Display-Type-B](https://raw.githubusercontent.com/DitroniX/DitroniX/main/Files/DitroniX.net%20STEM%20IoT%20eBay.jpg?raw=true)](https://www.ebay.co.uk/usr/ditronixuk)
 
-
+Our STEM SDK boards and accessories are available from our online shops on [eBay](https://www.ebay.co.uk/usr/ditronixuk) 
 ## **Further Information**
 
 Additional information, and other technical details on this project, maybe found in the related repository pages.
