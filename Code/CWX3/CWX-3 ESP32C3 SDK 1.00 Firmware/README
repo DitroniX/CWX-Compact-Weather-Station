@@ -1,0 +1,46 @@
+  Dave Williams, DitroniX 2018-2024 (ditronix.net)
+  AQIX-1 CWX-3 ESP32-C3 IoT Battery Energy Monitoring v1.0
+
+  AQIX and CWX3 ESP32-C3 Air Quality Monitor IoT Weather Station
+
+  Features include Self-Contained Compact SDK Board, MCU, Espressif, ESP32-C3 Mini 1 N4, ESP32-C3 Mini 1U N4, EEPROM AT24C64, Air Quality Sensor, SCD4, SCD41, Temperature, Humidity, Barometric Air Pressure, Dallas OneWire Temperature Sensors, Ambient Light Sensor, SFH2440, Battery Monitor, GPIO I2C OLED, USB Type C Flashing, ESP32-C3 Dev Module Compatible, CH340K, RGB LED, User Program Button, Lithium Battery CR123A Powered, AMS1117 3V3 LDO.
+
+  PCA 1.2410.101 - Test Code Firmware v1 - 12th October 2024
+
+  The purpose of this test code is to cycle through the various main functions of the board, as shown below, as part of board bring up testing.
+
+  Simplified Board Bring Up Test - All Functions
+  
+  Note: Config.h contains various user configurable variables.
+
+  Remember!
+  * Set the BOARD to ESP32-C3 DEV MODULE (or similar).
+  * You may set the BAUD rate to 921600 to speed up flashing.
+  * The SDK does NOT need external power to flash and will take Power from the USB 5V.
+
+  Information
+  * This test code is OPEN SOURCE and formatted for easier viewing.  Although is is not intended for real world use, it may be freely used, or modified as needed.
+  * No Software Interrupts, or Sleep Modes, have been included in this test code.
+  * It is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+
+  Compilation Warnings
+  Please ignore compilation warnings as these may relate to ESP32 v ESP32C3 library shortlfalls.  All should compile fine.
+
+  Further information, details and examples can be found on our website and also GitHub wiki pages:
+  
+  * github.com/DitroniX
+
+  * AQIX ESP32C3 - Air Quality Monitor IoT Weather Station
+  * github.com/DitroniX/AQIX-Air-Quality-Monitor-IoT-Weather-Station
+  * github.com/DitroniX/AQIX-Air-Quality-Monitor-IoT-Weather-Station/wiki
+  * hackster.io/DitroniX/aqix-esp32c3-air-quality-monitor-iot-weather-station-17b9b9
+
+  * CWX ESP32-C3 Portable Compact Weather Station
+  * github.com/DitroniX/CWX-Compact-Weather-Station
+  * github.com/DitroniX/CWX-Compact-Weather-Station/wiki
+  * hackster.io/DitroniX/cwx-esp32-c3-portable-compact-weather-station-b04172
+
+  * ThingSpeak example chart data being output from an AQIX board.  https://thingspeak.mathworks.com/channels/2692889
+
+  Tags
+  Self-Contained Compact SDK Board, MCU, Espressif, ESP32-C3 Mini 1 N4, ESP32-C3 Mini 1U N4, EEPROM AT24C64, Air Quality Sensor, SCD4, SCD41, Temperature, Humidity, Barometric Air Pressure, Dallas OneWire Temperature Sensors, Ambient Light Sensor, SFH2440, Battery Monitor, GPIO I2C OLED, USB Type C Flashing, ESP32-C3 Dev Module Compatible, CH340K, RGB LED, User Program Button, Lithium Battery CR123A Powered, AMS1117 3V3 LDO.

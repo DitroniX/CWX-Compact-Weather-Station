@@ -1,0 +1,3 @@
+AQIX and CWX3 ESP32-C3 Pin and GPIO Mapping
+
+![AQIX and CWX3 ESP32-C3 Pin and GPIO Mapping](AQIX%20CWX3%20ESP32%E2%80%90C3%20Pin%20Mapping.png)
