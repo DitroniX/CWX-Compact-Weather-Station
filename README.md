@@ -1,4 +1,4 @@
-## CWX v3 Compact IoT Weather Station (NEW for October 2024)
+## CWX v3 Compact IoT Weather Station 
 
 Powered by a single CR123 Lithium battery, or external DC power, this NEW CWX-3-BME280 Board is a Compact Weather Station for IoT Home Automation, providing:
 
@@ -147,3 +147,4 @@ Electronics Engineer | Software Developer | R&D Support | RF Engineering | Produ
 Life is one long exciting learning curve, help others by setting the seed to knowledge.
 
 ![DitroniX Supporting STEM](https://hackster.imgix.net/uploads/attachments/1606838/stem_ambassador_-_100_volunteer_badge_edxfxlrfbc1_bjdqharfoe1_xbqi2KUcri.png?auto=compress%2Cformat&w=540&fit=max)
+
